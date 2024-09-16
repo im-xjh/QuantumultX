@@ -1,0 +1,60 @@
+# NAME: Claude
+# AUTHOR: blackmatrix7
+# REPO: https://github.com/blackmatrix7/ios_rule_script
+# UPDATED: 2024-07-03 16:18:28
+# HOST: 1
+# HOST-SUFFIX: 2
+# TOTAL: 3
+HOST,cdn.usefathom.com,AI
+HOST-SUFFIX,anthropic.com,AI
+HOST-SUFFIX,claude.ai,AI
+
+
+# NAME: OpenAI
+# AUTHOR: blackmatrix7
+# REPO: https://github.com/blackmatrix7/ios_rule_script
+# UPDATED: 2024-07-03 16:18:28
+# HOST: 8
+# HOST-KEYWORD: 1
+# HOST-SUFFIX: 24
+# IP-ASN: 1
+# IP-CIDR: 2
+# TOTAL: 36
+HOST,browser-intake-datadoghq.com,AI
+HOST,chat.openai.com.cdn.cloudflare.net,AI
+HOST,gemini.google.com,AI
+HOST,openai-api.arkoselabs.com,AI
+HOST,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net,AI
+HOST,openaicomproductionae4b.blob.core.windows.net,AI
+HOST,production-openaicom-storage.azureedge.net,AI
+HOST,static.cloudflareinsights.com,AI
+HOST-SUFFIX,ai.com,AI
+HOST-SUFFIX,algolia.net,AI
+HOST-SUFFIX,api.statsig.com,AI
+HOST-SUFFIX,auth0.com,AI
+HOST-SUFFIX,chatgpt.com,AI
+HOST-SUFFIX,chatgpt.livekit.cloud,AI
+HOST-SUFFIX,client-api.arkoselabs.com,AI
+HOST-SUFFIX,events.statsigapi.net,AI
+HOST-SUFFIX,featuregates.org,AI
+HOST-SUFFIX,host.livekit.cloud,AI
+HOST-SUFFIX,identrust.com,AI
+HOST-SUFFIX,intercom.io,AI
+HOST-SUFFIX,intercomcdn.com,AI
+HOST-SUFFIX,launchdarkly.com,AI
+HOST-SUFFIX,oaistatic.com,AI
+HOST-SUFFIX,oaiusercontent.com,AI
+HOST-SUFFIX,observeit.net,AI
+HOST-SUFFIX,openai.com,AI
+HOST-SUFFIX,openaiapi-site.azureedge.net,AI
+HOST-SUFFIX,openaicom.imgix.net,AI
+HOST-SUFFIX,segment.io,AI
+HOST-SUFFIX,sentry.io,AI
+HOST-SUFFIX,stripe.com,AI
+HOST-SUFFIX,turn.livekit.cloud,AI
+HOST-KEYWORD,openai,AI
+IP-CIDR,24.199.123.28/32,AI
+IP-CIDR,64.23.132.171/32,AI
+IP-ASN,20473,AI
+
+HOST-KEYWORD,perplexity,AI
