@@ -1,4 +1,5 @@
 # Proxy
+
 DOMAIN-SUFFIX,9cache.com,新全球加速
 DOMAIN-SUFFIX,9gag.com,新全球加速
 DOMAIN-SUFFIX,abc.com,新全球加速
@@ -439,14 +440,14 @@ DOMAIN,wego.here.com,新全球加速
 DOMAIN-SUFFIX,go.dev,新全球加速
 DOMAIN-SUFFIX,golang.org,新全球加速
 # ---(Apple)---
-DOMAIN-SUFFIX,appsto.re // Apple URL Shortener,新全球加速
-DOMAIN-SUFFIX,smoot.apple.com // Spotlight,新全球加速
-DOMAIN,amp-api.podcasts.apple.com // Podcasts,新全球加速
-DOMAIN,beta.music.apple.com // Apple Music Web,新全球加速
-DOMAIN,books.itunes.apple.com // iBooks Store download,新全球加速
-DOMAIN,facetime.apple.com // FaceTime Links,新全球加速
-DOMAIN,lookup-api.apple.com // Look Up,新全球加速
-DOMAIN,radio.itunes.apple.com // Apple Music Radio,新全球加速
+DOMAIN-SUFFIX,appsto.re,新全球加速
+DOMAIN-SUFFIX,smoot.apple.com,新全球加速
+DOMAIN,amp-api.podcasts.apple.com,新全球加速
+DOMAIN,beta.music.apple.com,新全球加速
+DOMAIN,books.itunes.apple.com,新全球加速
+DOMAIN,facetime.apple.com,新全球加速
+DOMAIN,lookup-api.apple.com,新全球加速
+DOMAIN,radio.itunes.apple.com,新全球加速
 # > Mi
 DOMAIN,c.mi.com,新全球加速
 DOMAIN,new.c.mi.com,新全球加速
