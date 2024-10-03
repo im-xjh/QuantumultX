@@ -10,6 +10,7 @@
 # USER-AGENT: 3
 # TOTAL: 735
 
+HOST,imap.gmail.com,DIRECT
 HOST,smtp.gmail.com,DIRECT
 
 HOST,clientservices.googleapis.com,Google
