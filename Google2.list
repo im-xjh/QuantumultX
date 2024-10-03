@@ -1,0 +1,28 @@
+
+# 谷歌搜索
+HOST-KEYWORD,www.google.,Google
+
+# Gemini
+HOST,ai.google.dev,Google
+HOST,alkalimakersuite-pa.clients6.google.com,Google
+HOST,makersuite.google.com,Google
+HOST-SUFFIX,bard.google.com,Google
+HOST-SUFFIX,deepmind.com,Google
+HOST-SUFFIX,deepmind.google,Google
+HOST-SUFFIX,gemini.google.com,Google
+HOST-SUFFIX,generativeai.google,Google
+HOST-SUFFIX,proactivebackend-pa.googleapis.com,Google
+HOST-SUFFIX,apis.google.com,Google
+HOST-KEYWORD,colab,Google
+HOST-KEYWORD,developerprofiles,Google
+HOST-KEYWORD,generativelanguage,Google
+
+# Google Cloud
+HOST-SUFFIX,appspot.com,Google
+HOST-SUFFIX,cloudfunctions.net,Google
+HOST-SUFFIX,gcr.io,Google
+HOST-SUFFIX,cloudproxy.app,Google
+HOST-SUFFIX,run.app,Google
+HOST-SUFFIX,cloud.google.com,Google
+HOST-SUFFIX,googleapis.com,Google
+HOST-KEYWORD,googleapis,Google
