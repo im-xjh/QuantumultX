@@ -6,6 +6,8 @@
 # IP-CIDR: 53
 # IP6-CIDR: 1
 # TOTAL: 1305
+HOST-KEYWORD,tongyi,Alibaba
+HOST-KEYWORD,tingwu,Alibaba
 HOST-SUFFIX,10029.com,Alibaba
 HOST-SUFFIX,1688.com,Alibaba
 HOST-SUFFIX,17lai.org,Alibaba
