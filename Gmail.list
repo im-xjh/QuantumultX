@@ -1,3 +1,3 @@
-DOMAIN,imap.gmail.com,Google
-DOMAIN,smtp.gmail.com,Google
-DOMAIN-SUFFIX,gmail.com,Google
+DOMAIN,imap.gmail.com,Proxy
+DOMAIN,smtp.gmail.com,Proxy
+DOMAIN-SUFFIX,gmail.com,Proxy
