@@ -1,0 +1,3 @@
+DOMAIN,imap.gmail.com,Direct
+DOMAIN,smtp.gmail.com,Direct
+DOMAIN-SUFFIX,gmail.com,Direct
