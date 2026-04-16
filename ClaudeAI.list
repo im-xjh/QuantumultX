@@ -1,0 +1,6 @@
+# NAME: ClaudeAI
+# DESC: Highest-priority Claude and Anthropic keyword rules for Quantumult X.
+# UPDATED: 2026-04-16
+
+HOST-KEYWORD,claude,美国IP
+HOST-KEYWORD,anthropic,美国IP
