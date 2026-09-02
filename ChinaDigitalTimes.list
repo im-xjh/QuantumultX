@@ -1,0 +1,10 @@
+# NAME: ChinaDigitalTimes
+# DESC: 中国数字时代 (CDT) 相关站点，强制走美国IP
+# UPDATED: 2026-09-02
+
+# > 主站 / 中文版 / 中国数字空间 / 20周年专题（含全部子域名）
+HOST-SUFFIX,chinadigitaltimes.net,美国IP
+
+# > CDT 卫星站点
+HOST,chinadigitaltimes.substack.com,美国IP
+HOST,cdt.firstory.io,美国IP
