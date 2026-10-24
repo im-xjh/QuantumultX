@@ -1,0 +1,30 @@
+# NAME: Meta
+# DESC: Meta AI / Muse, Facebook, Instagram, Threads, Messenger, WhatsApp, Quest.
+
+host-suffix, meta.ai, Meta
+host-suffix, meta.com, Meta
+host-suffix, meta.net, Meta
+host-suffix, llama.com, Meta
+host-suffix, facebook.com, Meta
+host-suffix, facebook.net, Meta
+host-suffix, facebook-hardware.com, Meta
+host-suffix, fb.com, Meta
+host-suffix, fb.me, Meta
+host-suffix, fbcdn.net, Meta
+host-suffix, fbsbx.com, Meta
+host-suffix, instagram.com, Meta
+host-suffix, cdninstagram.com, Meta
+host-suffix, instagr.am, Meta
+host-suffix, ig.me, Meta
+host-suffix, igcdn.com, Meta
+host-suffix, threads.com, Meta
+host-suffix, threads.net, Meta
+host-suffix, messenger.com, Meta
+host-suffix, m.me, Meta
+host-suffix, whatsapp.com, Meta
+host-suffix, whatsapp.net, Meta
+host-suffix, whatsapp.biz, Meta
+host-suffix, wa.me, Meta
+host-suffix, oculus.com, Meta
+host-suffix, oculuscdn.com, Meta
+host-suffix, oculusvr.com, Meta
