@@ -1,0 +1,14 @@
+# NAME: GitHub
+# DESC: GitHub web, Git transport, raw content, assets, Pages and container registry.
+# UPDATED: 2026-10-25
+
+host-suffix, github.com, proxy
+host-suffix, githubusercontent.com, proxy
+host-suffix, githubassets.com, proxy
+host-suffix, github.io, proxy
+host-suffix, githubstatus.com, proxy
+host, ghcr.io, proxy
+host, github-cloud.s3.amazonaws.com, proxy
+host, github-production-release-asset-2e65be.s3.amazonaws.com, proxy
+host, github-production-user-asset-6210df.s3.amazonaws.com, proxy
+host-keyword, github, proxy
