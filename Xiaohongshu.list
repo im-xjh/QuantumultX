@@ -1,0 +1,5 @@
+# NAME: Xiaohongshu
+# DESC: Host rules; routing policy is bound by the main configuration.
+
+host-keyword, xiaohongshu, proxy
+host-keyword, rednote, proxy
