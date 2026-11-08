@@ -1,1 +1,11 @@
-HOST-KEYWORD,tandfonline,direct
+HOST-SUFFIX,sciencedirect.com,direct
+HOST-SUFFIX,tandfonline.com,direct
+HOST-SUFFIX,sagepub.com,direct
+HOST-SUFFIX,science.org,direct
+HOST-SUFFIX,nature.com,direct
+HOST-SUFFIX,springer.com,direct
+HOST-SUFFIX,springerlink.com,direct
+HOST-SUFFIX,wiley.com,direct
+HOST-SUFFIX,oup.com,direct
+HOST-SUFFIX,cambridge.org,direct
+HOST-SUFFIX,jstor.org,direct
