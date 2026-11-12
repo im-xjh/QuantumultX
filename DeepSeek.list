@@ -1,0 +1,4 @@
+# NAME: DeepSeek
+# DESC: DeepSeek service direct-access rule.
+
+host-suffix, deepseek.com, direct
