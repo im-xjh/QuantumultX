@@ -1,0 +1,22 @@
+# 策略：全球加速
+# GitHub
+host-suffix, github.com, 全球加速
+host-suffix, githubusercontent.com, 全球加速
+host-suffix, githubassets.com, 全球加速
+host-suffix, github.io, 全球加速
+host-suffix, githubstatus.com, 全球加速
+host, ghcr.io, 全球加速
+host, github-cloud.s3.amazonaws.com, 全球加速
+host, github-production-release-asset-2e65be.s3.amazonaws.com, 全球加速
+host, github-production-user-asset-6210df.s3.amazonaws.com, 全球加速
+host-keyword, github, 全球加速
+
+# Gmail
+host, imap.gmail.com, 全球加速, via-interface=%TUN%
+host, smtp.gmail.com, 全球加速, via-interface=%TUN%
+host-suffix, gmail.com, 全球加速, via-interface=%TUN%
+
+# 中国数字时代
+host-suffix, chinadigitaltimes.net, 全球加速
+host, chinadigitaltimes.substack.com, 全球加速
+host, cdt.firstory.io, 全球加速

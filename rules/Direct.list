@@ -1,0 +1,19 @@
+# 策略：direct
+# DeepSeek、MinerU 与国内直连例外
+host-suffix, deepseek.com, direct
+host, cdn-mineru.openxlab.org.cn, direct
+host, ad.12306.cn, direct
+host, sdkapp.uve.weibo.com, direct
+
+# 学术站点
+host-suffix, sciencedirect.com, direct
+host-suffix, tandfonline.com, direct
+host-suffix, sagepub.com, direct
+host-suffix, science.org, direct
+host-suffix, nature.com, direct
+host-suffix, springer.com, direct
+host-suffix, springerlink.com, direct
+host-suffix, wiley.com, direct
+host-suffix, oup.com, direct
+host-suffix, cambridge.org, direct
+host-suffix, jstor.org, direct

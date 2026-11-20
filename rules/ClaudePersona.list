@@ -1,0 +1,13 @@
+# 策略：落地IP-美国
+# Claude、Anthropic 与 Persona
+# 来源 https://gist.github.com/ddgksf2013/cb4121e8b5c5d865cc949cb8120320c4
+# https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Anthropic
+host-suffix, claude.ai, 落地IP-美国, via-interface=%TUN%
+host-suffix, claude.com, 落地IP-美国, via-interface=%TUN%
+host-suffix, claudeusercontent.com, 落地IP-美国, via-interface=%TUN%
+host-suffix, anthropic.com, 落地IP-美国, via-interface=%TUN%
+host, servd-anthropic-website.b-cdn.net, 落地IP-美国, via-interface=%TUN%
+host-keyword, claude, 落地IP-美国, via-interface=%TUN%
+host-keyword, anthropic, 落地IP-美国, via-interface=%TUN%
+host-suffix, withpersona.com, 落地IP-美国, via-interface=%TUN%
+host-suffix, withpersonna.com, 落地IP-美国, via-interface=%TUN%

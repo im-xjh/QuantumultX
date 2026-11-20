@@ -9,15 +9,19 @@
 
 ## 当前配置
 
-自用域名和例外集中维护在 [rules/custom.list](rules/custom.list)。DeepSeek、MinerU、学术站点等按用途在同一文件内分段，每条规则直接指定出口。私有主配置 `quantumult_20261015195519.conf` 通过 HTTPS 订阅这一个文件，另外引用第三方规则。
+[自用规则目录](rules/)按策略分文件。主配置逐份通过 HTTPS 引用，同一文件内的规则共用一个出口。
 
-| 业务 | 出口 |
-| --- | --- |
-| Claude、Anthropic、Persona | 固定使用 `落地IP-美国` |
-| 国际 AI、Google 登录与搜索 | `美国IP优先`，可手选 `落地IP-美国` 或 `直连` |
-| GitHub、Gmail、中国数字时代、其他 Google 服务 | `全球加速` |
-| X、Meta 普通社交流量、Spotify、视频 | `国际媒体` |
-| Apple、哔哩哔哩、DeepSeek、MinerU 下载及学术直连例外 | `direct` |
+| 自用清单 | 内容 | 策略 |
+| --- | --- | --- |
+| [ClaudePersona.list](rules/ClaudePersona.list) | Claude、Anthropic、Persona | 落地IP-美国 |
+| [USPreferred.list](rules/USPreferred.list) | 国际 AI、Google 登录与搜索 | 美国IP优先 |
+| [Direct.list](rules/Direct.list) | DeepSeek、MinerU、学术站点和直连例外 | direct |
+| [InternationalMedia.list](rules/InternationalMedia.list) | X、Meta 普通社交流量 | 国际媒体 |
+| [GlobalProxy.list](rules/GlobalProxy.list) | GitHub、Gmail、中国数字时代 | 全球加速 |
+| [OpenCode.list](rules/OpenCode.list) | OpenCode | IP中转节点 |
+| [Readymag.list](rules/Readymag.list) | Readymag | 中转 |
+
+美国IP优先可手选 `落地IP-美国` 或 `直连`。第三方订阅中的 Spotify 走国际媒体，Apple 和哔哩哔哩走 `direct`。
 
 `直连` 是 RackNerd、ccwu 自建代理节点池；`direct` 是设备直接访问。OpenCode 沿用 `IP中转节点`，Readymag 沿用 `中转`。详情见[链式代理说明](quantumultx-proxy-chain-guideline.md)。
 
