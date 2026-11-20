@@ -1,7 +1,6 @@
 # NAME: Meta
-# DESC: Meta AI / Muse, Facebook, Instagram, Threads, Messenger, WhatsApp, Quest.
+# DESC: X, Facebook, Instagram, Threads, Messenger, WhatsApp, Quest.
 
-host-suffix, meta.ai, proxy
 host-suffix, meta.com, proxy
 host-suffix, meta.net, proxy
 host-suffix, llama.com, proxy
@@ -28,3 +27,10 @@ host-suffix, wa.me, proxy
 host-suffix, oculus.com, proxy
 host-suffix, oculuscdn.com, proxy
 host-suffix, oculusvr.com, proxy
+
+# X | https://github.com/ConnersHua/RuleGo/blob/master/Surge/Ruleset/Proxy.list
+host-suffix, x.com, proxy
+host-suffix, twitter.com, proxy
+host-suffix, twitter.jp, proxy
+host-suffix, t.co, proxy
+host-suffix, twimg.com, proxy
