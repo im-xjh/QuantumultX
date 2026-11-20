@@ -1,4 +1,0 @@
-# NAME: OpenCode
-# DESC: Host rules; routing policy is bound by the main configuration.
-
-host-suffix, opencode.ai, proxy

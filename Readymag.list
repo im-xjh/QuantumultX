@@ -1,4 +1,0 @@
-# NAME: Readymag
-# DESC: Host rules; routing policy is bound by the main configuration.
-
-host-suffix, readymag.com, proxy

@@ -7,36 +7,19 @@
 - 仍在使用的规则与当前主配置
 - 不同时间点保存下来的自用配置版本
 
-## 当前在用
+## 当前配置
 
-如果只看目前仍在实际使用、需要维护的内容，优先关注以下文件：
+自用域名和例外集中维护在 [rules/custom.list](rules/custom.list)。DeepSeek、MinerU、学术站点等按用途在同一文件内分段，每条规则直接指定出口。私有主配置 `quantumult_20261015195519.conf` 通过 HTTPS 订阅这一个文件，另外引用第三方规则。
 
-| 文件                         | 作用             | 说明                                                                               |
-| ---------------------------- | ---------------- | ---------------------------------------------------------------------------------- |
-| `quantumult_20261015195519.conf` | 当前主配置       | 最新维护入口；保留连接、策略组、规则引用与基础分流。 |
-| `academy.list`             | 学术站点分流规则 | GitHub 订阅，内容很小，单独维护更方便。                             |
-| `Gmail.list`               | Gmail 分流规则   | GitHub 订阅，用于 Gmail 相关域名强制走代理。                        |
-| `GitHub.list`              | GitHub 分流规则  | 覆盖 GitHub 网页、Git 传输、静态资源、Pages 与容器镜像域名。                         |
-| `Meta.list`                | Meta 分流规则    | X、Facebook、Instagram 等社交媒体。 |
-| `ClaudeAI.list`            | Claude 分流规则  | Claude、Anthropic 与 Persona，由主配置绑定 `美国IP`。 |
-| `ChinaDigitalTimes.list`   | 中国数字时代规则 | 中国数字时代及相关站点，使用 `全球加速`。 |
-| `MinerU.list`              | MinerU 下载规则  | 结果下载 CDN 的精确直连例外。 |
-| `DirectExceptions.list`    | 网站直连例外     | 集中维护零散的网站直连例外。 |
-| `OpenCode.list`            | OpenCode 分流规则 | 绑定 `IP中转节点`，已替换原本机 snippet 引用。 |
-| `Readymag.list`            | Readymag 分流规则 | 绑定 `中转`，已替换原本机 snippet 引用。 |
-| `USPreferred.list` | 美国IP优先 | 国际 AI、Google 登录和搜索共用手动开关。 |
+| 业务 | 出口 |
+| --- | --- |
+| Claude、Anthropic、Persona | 固定使用 `落地IP-美国` |
+| 国际 AI、Google 登录与搜索 | `美国IP优先`，可手选 `落地IP-美国` 或 `直连` |
+| GitHub、Gmail、中国数字时代、其他 Google 服务 | `全球加速` |
+| X、Meta 普通社交流量、Spotify、视频 | `国际媒体` |
+| Apple、哔哩哔哩、DeepSeek、MinerU 下载及学术直连例外 | `direct` |
 
-### 当前主配置的结构
-
-`quantumult_20261015195519.conf` 是目前的本地主配置，核心思路见[链式代理](https://github.com/im-xjh/QuantumultX/blob/master/quantumultx-proxy-chain-guideline.md)。文件名日期不代表最近修改日期。策略组 `直连` 是自建代理池，内置策略 `direct` 才表示直接连接。
-
-分流资源通过 HTTPS 订阅。Claude 和 Persona 只用住宅出口。切换 `美国IP优先` 会同时改变国际 AI、Google 登录和搜索的出口。默认选住宅，备用选固定的 RackNerd-CF-A。GitHub、中国数字时代、网盘和一般 Google 流量走全球加速，X 与 Meta 社交流量走国际媒体。
-
-AI 清单的注释记录来源和核对日期。更新时比较上游差异，并通过请求日志核对登录、对话、附件与共享主机。小红书保留原有净化重写。
-
-2026-10-25 已完成 Meta 恢复与业务分流迁移的文件检查，尚未在 Quantumult X 中更新或验证实际命中。备份、批次记录与恢复方式见 [业务规则迁移记录](20261025-business-rules-migration.md)。
-
-同日已读取并处理四份本机分流 snippet：三份迁到云端，腾讯云的重复引用移除；主配置的分流资源已无本机 snippet 引用。原文件保留，软件尚未更新。详见 [本机分流迁移记录](20261025-local-snippets-migration.md)。
+`直连` 是 RackNerd、ccwu 自建代理节点池；`direct` 是设备直接访问。OpenCode 沿用 `IP中转节点`，Readymag 沿用 `中转`。详情见[链式代理说明](quantumultx-proxy-chain-guideline.md)。
 
 ## 说明文档
 
