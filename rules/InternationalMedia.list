@@ -1,33 +1,33 @@
 # 策略：国际媒体
 # X 与 Meta 社交媒体
-host-suffix, meta.com, 国际媒体, via-interface=%TUN%
-host-suffix, meta.net, 国际媒体, via-interface=%TUN%
-host-suffix, llama.com, 国际媒体, via-interface=%TUN%
-host-suffix, facebook.com, 国际媒体, via-interface=%TUN%
-host-suffix, facebook.net, 国际媒体, via-interface=%TUN%
-host-suffix, facebook-hardware.com, 国际媒体, via-interface=%TUN%
-host-suffix, fb.com, 国际媒体, via-interface=%TUN%
-host-suffix, fb.me, 国际媒体, via-interface=%TUN%
-host-suffix, fbcdn.net, 国际媒体, via-interface=%TUN%
-host-suffix, fbsbx.com, 国际媒体, via-interface=%TUN%
-host-suffix, instagram.com, 国际媒体, via-interface=%TUN%
-host-suffix, cdninstagram.com, 国际媒体, via-interface=%TUN%
-host-suffix, instagr.am, 国际媒体, via-interface=%TUN%
-host-suffix, ig.me, 国际媒体, via-interface=%TUN%
-host-suffix, igcdn.com, 国际媒体, via-interface=%TUN%
-host-suffix, threads.com, 国际媒体, via-interface=%TUN%
-host-suffix, threads.net, 国际媒体, via-interface=%TUN%
-host-suffix, messenger.com, 国际媒体, via-interface=%TUN%
-host-suffix, m.me, 国际媒体, via-interface=%TUN%
-host-suffix, whatsapp.com, 国际媒体, via-interface=%TUN%
-host-suffix, whatsapp.net, 国际媒体, via-interface=%TUN%
-host-suffix, whatsapp.biz, 国际媒体, via-interface=%TUN%
-host-suffix, wa.me, 国际媒体, via-interface=%TUN%
-host-suffix, oculus.com, 国际媒体, via-interface=%TUN%
-host-suffix, oculuscdn.com, 国际媒体, via-interface=%TUN%
-host-suffix, oculusvr.com, 国际媒体, via-interface=%TUN%
-host-suffix, x.com, 国际媒体, via-interface=%TUN%
-host-suffix, twitter.com, 国际媒体, via-interface=%TUN%
-host-suffix, twitter.jp, 国际媒体, via-interface=%TUN%
-host-suffix, t.co, 国际媒体, via-interface=%TUN%
-host-suffix, twimg.com, 国际媒体, via-interface=%TUN%
+host-suffix, meta.com, 国际媒体
+host-suffix, meta.net, 国际媒体
+host-suffix, llama.com, 国际媒体
+host-suffix, facebook.com, 国际媒体
+host-suffix, facebook.net, 国际媒体
+host-suffix, facebook-hardware.com, 国际媒体
+host-suffix, fb.com, 国际媒体
+host-suffix, fb.me, 国际媒体
+host-suffix, fbcdn.net, 国际媒体
+host-suffix, fbsbx.com, 国际媒体
+host-suffix, instagram.com, 国际媒体
+host-suffix, cdninstagram.com, 国际媒体
+host-suffix, instagr.am, 国际媒体
+host-suffix, ig.me, 国际媒体
+host-suffix, igcdn.com, 国际媒体
+host-suffix, threads.com, 国际媒体
+host-suffix, threads.net, 国际媒体
+host-suffix, messenger.com, 国际媒体
+host-suffix, m.me, 国际媒体
+host-suffix, whatsapp.com, 国际媒体
+host-suffix, whatsapp.net, 国际媒体
+host-suffix, whatsapp.biz, 国际媒体
+host-suffix, wa.me, 国际媒体
+host-suffix, oculus.com, 国际媒体
+host-suffix, oculuscdn.com, 国际媒体
+host-suffix, oculusvr.com, 国际媒体
+host-suffix, x.com, 国际媒体
+host-suffix, twitter.com, 国际媒体
+host-suffix, twitter.jp, 国际媒体
+host-suffix, t.co, 国际媒体
+host-suffix, twimg.com, 国际媒体

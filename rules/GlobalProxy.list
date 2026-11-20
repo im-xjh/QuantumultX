@@ -12,9 +12,9 @@ host, github-production-user-asset-6210df.s3.amazonaws.com, 全球加速
 host-keyword, github, 全球加速
 
 # Gmail
-host, imap.gmail.com, 全球加速, via-interface=%TUN%
-host, smtp.gmail.com, 全球加速, via-interface=%TUN%
-host-suffix, gmail.com, 全球加速, via-interface=%TUN%
+host, imap.gmail.com, 全球加速
+host, smtp.gmail.com, 全球加速
+host-suffix, gmail.com, 全球加速
 
 # 中国数字时代
 host-suffix, chinadigitaltimes.net, 全球加速

@@ -3,43 +3,73 @@
 # 来源 https://gist.github.com/ddgksf2013/cb4121e8b5c5d865cc949cb8120320c4
 # OpenAI https://help.openai.com/en/articles/9247338
 # https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/OpenAI
-host-suffix, chatgpt.com, 美国IP优先, via-interface=%TUN%
-host-suffix, openai.com, 美国IP优先, via-interface=%TUN%
-host-suffix, oaistatic.com, 美国IP优先, via-interface=%TUN%
-host-suffix, oaiusercontent.com, 美国IP优先, via-interface=%TUN%
-host-suffix, oaistatsig.com, 美国IP优先, via-interface=%TUN%
-host-suffix, chatgpt.livekit.cloud, 美国IP优先, via-interface=%TUN%
-host, cdn.openaimerge.com, 美国IP优先, via-interface=%TUN%
-host, chat.openai.com.cdn.cloudflare.net, 美国IP优先, via-interface=%TUN%
-host, openai-api.arkoselabs.com, 美国IP优先, via-interface=%TUN%
-host, openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net, 美国IP优先, via-interface=%TUN%
-host, openaicomproductionae4b.blob.core.windows.net, 美国IP优先, via-interface=%TUN%
-host, production-openaicom-storage.azureedge.net, 美国IP优先, via-interface=%TUN%
-host, openaiapi-site.azureedge.net, 美国IP优先, via-interface=%TUN%
-host, openaicom.imgix.net, 美国IP优先, via-interface=%TUN%
+host-suffix, chatgpt.com, 美国IP优先
+host-suffix, openai.com, 美国IP优先
+host-suffix, oaistatic.com, 美国IP优先
+host-suffix, oaiusercontent.com, 美国IP优先
+host-suffix, oaistatsig.com, 美国IP优先
+host-suffix, ai.com, 美国IP优先
+host-suffix, chatgpt.livekit.cloud, 美国IP优先
+host, cdn.openaimerge.com, 美国IP优先
+host, chat.openai.com.cdn.cloudflare.net, 美国IP优先
+host, openai-api.arkoselabs.com, 美国IP优先
+host, openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net, 美国IP优先
+host, openaicomproductionae4b.blob.core.windows.net, 美国IP优先
+host, production-openaicom-storage.azureedge.net, 美国IP优先
+host, openaiapi-site.azureedge.net, 美国IP优先
+host, openaicom.imgix.net, 美国IP优先
 # Gemini | 上游产品表与本机请求记录
 # https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Gemini
-host-suffix, gemini.google.com, 美国IP优先, via-interface=%TUN%
-host, gemini.gstatic.com, 美国IP优先, via-interface=%TUN%
-host, geminiweb-pa.clients6.google.com, 美国IP优先, via-interface=%TUN%
-host, appsgenaiserver-pa.clients6.google.com, 美国IP优先, via-interface=%TUN%
-host, generativelanguage.googleapis.com, 美国IP优先, via-interface=%TUN%
-host, aistudio.google.com, 美国IP优先, via-interface=%TUN%
-host, ai.google.dev, 美国IP优先, via-interface=%TUN%
-host, alkalimakersuite-pa.clients6.google.com, 美国IP优先, via-interface=%TUN%
-host, makersuite.google.com, 美国IP优先, via-interface=%TUN%
+host-suffix, gemini.google.com, 美国IP优先
+host, gemini.gstatic.com, 美国IP优先
+host, geminiweb-pa.clients6.google.com, 美国IP优先
+host, appsgenaiserver-pa.clients6.google.com, 美国IP优先
+host, generativelanguage.googleapis.com, 美国IP优先
+host, aistudio.google.com, 美国IP优先
+host, ai.google.dev, 美国IP优先
+host, alkalimakersuite-pa.clients6.google.com, 美国IP优先
+host, makersuite.google.com, 美国IP优先
+host-suffix, deepmind.com, 美国IP优先
+host-suffix, deepmind.google, 美国IP优先
+host-suffix, generativeai.google, 美国IP优先
+host-suffix, colab.google.com, 美国IP优先
+host-suffix, colab.research.google.com, 美国IP优先
 # Grok、Muse、Meta AI、Qwen 国际版
 # https://x.ai/grok
 # https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/
-host-suffix, grok.com, 美国IP优先, via-interface=%TUN%
-host-suffix, x.ai, 美国IP优先, via-interface=%TUN%
-host-suffix, muse.ai, 美国IP优先, via-interface=%TUN%
-host-suffix, meta.ai, 美国IP优先, via-interface=%TUN%
-host, chat.qwen.ai, 美国IP优先, via-interface=%TUN%
+host-suffix, grok.com, 美国IP优先
+host-suffix, x.ai, 美国IP优先
+host-suffix, muse.ai, 美国IP优先
+host-suffix, meta.ai, 美国IP优先
+host, chat.qwen.ai, 美国IP优先
+# 其他国际 AI 工具（沿用原 Ai.yaml，已排除公共云/CDN 宽泛后缀）
+# Cursor
+host-suffix, cursor.sh, 美国IP优先
+host-suffix, cursor.com, 美国IP优先
+# Perplexity
+host-suffix, perplexity.ai, 美国IP优先
+host-suffix, perplexity.com, 美国IP优先
+host-suffix, pplx.ai, 美国IP优先
+host, pplx-res.cloudinary.com, 美国IP优先
+# Poe
+host-suffix, poe.com, 美国IP优先
+host-suffix, poecdn.net, 美国IP优先
+# Midjourney
+host-suffix, midjourney.com, 美国IP优先
+# Microsoft Copilot（仅保留 AI 专属主机，不含普通 Bing/MSN）
+host, copilot.microsoft.com, 美国IP优先
+host, sydney.bing.com, 美国IP优先
+host, gateway.bingviz.microsoft.net, 美国IP优先
+host, gateway.bingviz.microsoftapp.net, 美国IP优先
+host-suffix, edgeservices.bing.com, 美国IP优先
+# Dify AI & JetBrains AI
+host-suffix, dify.ai, 美国IP优先
+host-suffix, grazie.ai, 美国IP优先
 # X 网页 Grok 和 WhatsApp Web 对话共用的页面入口；媒体 CDN 另行分流
-host, x.com, 美国IP优先, via-interface=%TUN%
-host, web.whatsapp.com, 美国IP优先, via-interface=%TUN%
+host, x.com, 美国IP优先
+host, web.whatsapp.com, 美国IP优先
 # Google 登录与搜索 | 本机请求记录
-host, accounts.google.com, 美国IP优先, via-interface=%TUN%
-host, www.google.com, 美国IP优先, via-interface=%TUN%
-host, www.google.com.hk, 美国IP优先, via-interface=%TUN%
+host, accounts.google.com, 美国IP优先
+host, myaccount.google.com, 美国IP优先
+host, www.google.com, 美国IP优先
+host, www.google.com.hk, 美国IP优先

@@ -13,15 +13,15 @@
 
 | 自用清单 | 内容 | 策略 |
 | --- | --- | --- |
-| [ClaudePersona.list](rules/ClaudePersona.list) | Claude、Anthropic、Persona | 落地IP-美国 |
-| [USPreferred.list](rules/USPreferred.list) | 国际 AI、Google 登录与搜索 | 美国IP优先 |
+| [ClaudePersona.list](rules/ClaudePersona.list) | Claude、Anthropic、Persona | 美国IP |
+| [USPreferred.list](rules/USPreferred.list) | 国际 AI（含 Cursor、Perplexity、Poe、Midjourney、Copilot 等）、Google 登录与搜索 | 美国IP优先 |
 | [Direct.list](rules/Direct.list) | DeepSeek、MinerU、学术站点和直连例外 | direct |
 | [InternationalMedia.list](rules/InternationalMedia.list) | X、Meta 普通社交流量 | 国际媒体 |
 | [GlobalProxy.list](rules/GlobalProxy.list) | GitHub、Gmail、中国数字时代 | 全球加速 |
 | [OpenCode.list](rules/OpenCode.list) | OpenCode | IP中转节点 |
 | [Readymag.list](rules/Readymag.list) | Readymag | 中转 |
 
-美国IP优先可手选 `落地IP-美国` 或 `直连`。第三方订阅中的 Spotify 走国际媒体，Apple 和哔哩哔哩走 `direct`。
+`美国IP` 仅包含 `落地IP-美国`，`美国IP优先` 可手选 `美国IP` 或 `直连`。第三方订阅中的 Spotify 走国际媒体，Apple 和哔哩哔哩走 `direct`。
 
 `直连` 是 RackNerd、ccwu 自建代理节点池；`direct` 是设备直接访问。OpenCode 沿用 `IP中转节点`，Readymag 沿用 `中转`。详情见[链式代理说明](quantumultx-proxy-chain-guideline.md)。
 
