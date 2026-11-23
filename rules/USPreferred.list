@@ -73,3 +73,15 @@ host, accounts.google.com, 美国IP优先
 host, myaccount.google.com, 美国IP优先
 host, www.google.com, 美国IP优先
 host, www.google.com.hk, 美国IP优先
+
+# Google AI 与 Antigravity
+host, daily-cloudcode-pa.googleapis.com, 美国IP优先
+host, aicode.googleapis.com, 美国IP优先
+host, signaler-pa.googleapis.com, 美国IP优先
+host, signaler-pa.clients6.google.com, 美国IP优先
+host, robinfrontend-pa.googleapis.com, 美国IP优先
+host, antigravity-hub-auto-updater-974169037036.us-central1.run.app, 美国IP优先
+# Google OAuth 与 Scholar
+host, oauth2.googleapis.com, 美国IP优先
+host, oauthaccountmanager.googleapis.com, 美国IP优先
+host, scholar.google.com, 美国IP优先
