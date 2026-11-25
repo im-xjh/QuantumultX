@@ -85,3 +85,6 @@ host, antigravity-hub-auto-updater-974169037036.us-central1.run.app, 美国IP优
 host, oauth2.googleapis.com, 美国IP优先
 host, oauthaccountmanager.googleapis.com, 美国IP优先
 host, scholar.google.com, 美国IP优先
+
+# 自有 VPS 网站
+host-suffix, hankxu.ccwu.cc, 美国IP优先
