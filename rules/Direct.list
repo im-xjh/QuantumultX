@@ -8,7 +8,6 @@ host, sdkapp.uve.weibo.com, direct
 # 学术站点
 host-suffix, sciencedirect.com, direct
 host-suffix, tandfonline.com, direct
-host-suffix, sagepub.com, direct
 host-suffix, science.org, direct
 host-suffix, nature.com, direct
 host-suffix, springer.com, direct
