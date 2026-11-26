@@ -1,5 +1,5 @@
 # 策略：美国IP优先
-# 国际 AI、Google 登录与搜索
+# 国际 AI 与 Google
 # 来源 https://gist.github.com/ddgksf2013/cb4121e8b5c5d865cc949cb8120320c4
 # OpenAI https://help.openai.com/en/articles/9247338
 # https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/OpenAI
@@ -68,11 +68,28 @@ host-suffix, grazie.ai, 美国IP优先
 # X 网页 Grok 和 WhatsApp Web 对话共用的页面入口；媒体 CDN 另行分流
 host, x.com, 美国IP优先
 host, web.whatsapp.com, 美国IP优先
-# Google 登录与搜索 | 本机请求记录
+# Google 登录、搜索、Workspace 与共享服务
+host-suffix, google.com, 美国IP优先
+host-suffix, google.com.hk, 美国IP优先
+host-suffix, google.com.tw, 美国IP优先
+host-suffix, google.co.jp, 美国IP优先
+host-suffix, google.com.sg, 美国IP优先
+host-suffix, google.co.kr, 美国IP优先
+host-suffix, googleapis.com, 美国IP优先
+host-suffix, gstatic.com, 美国IP优先
+host-suffix, googleusercontent.com, 美国IP优先
+host-suffix, gmail.com, 美国IP优先
+host-suffix, recaptcha.net, 美国IP优先
 host, accounts.google.com, 美国IP优先
+host, accounts.youtube.com, 美国IP优先
 host, myaccount.google.com, 美国IP优先
 host, www.google.com, 美国IP优先
 host, www.google.com.hk, 美国IP优先
+host, www.googleapis.com, 美国IP优先
+host, fonts.googleapis.com, 美国IP优先
+host, fonts.gstatic.com, 美国IP优先
+host, lens.l.google.com, 美国IP优先
+host, translate.googleapis.com, 美国IP优先
 
 # Google AI 与 Antigravity
 host, daily-cloudcode-pa.googleapis.com, 美国IP优先
